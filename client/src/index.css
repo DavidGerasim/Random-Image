@@ -1,0 +1,70 @@
+/* עיצוב כללי לעמוד */
+body {
+  background-color: #e9ecef; /* צבע רקע בהיר ונקי */
+  color: #343a40; /* צבע טקסט כהה */
+  font-family: "Arial", sans-serif; /* גופן קריא ורשמי */
+  margin: 0;
+  padding: 0;
+}
+
+/* כותרת ראשית */
+h1 {
+  text-align: center;
+  color: #495057; /* צבע כותרת רגוע */
+  font-size: 2.5rem; /* גודל כותרת */
+  margin-top: 30px;
+  text-transform: uppercase; /* אותיות גדולות */
+  font-weight: bold; /* טקסט מודגש */
+}
+
+/* כפתור */
+button {
+  background-color: #007bff; /* צבע כחול אלגנטי */
+  color: white;
+  border: 2px solid #0056b3; /* גבול עדין */
+  padding: 12px 25px; /* ריפוד גדול יותר */
+  font-size: 1.2rem; /* גודל טקסט ברור */
+  cursor: pointer;
+  border-radius: 30px; /* פינות עגולות יותר */
+  margin: 20px auto; /* רווחים מסביב */
+  display: block;
+  transition: all 0.3s ease-in-out; /* אנימציה לחיצה */
+}
+
+/* אפקט רחיפה על הכפתור */
+button:hover {
+  background-color: #0056b3; /* צבע כהה יותר */
+  border-color: #003d73; /* שינוי צבע גבול */
+  transform: scale(1.05); /* הגדלה קלה */
+}
+
+/* תמונה */
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  display: block;
+  margin: 20px auto;
+  background-color: #f8f9fa; /* רקע בהיר */
+  border: 1px solid #ced4da; /* מסגרת דקה */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* צל לתמונה */
+}
+
+/* קונטיינר למרכז התוכן */
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* מרכז את התוכן */
+  padding: 20px; /* ריפוד פנימי */
+  background-color: white; /* רקע נקי */
+  border-radius: 15px; /* פינות מעוגלות */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* צל לתיבה */
+}
+
+/* כותרת משנית */
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #495057;
+  margin-bottom: 20px;
+}
